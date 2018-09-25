@@ -1,0 +1,91 @@
+#blinker {
+    -webkit-animation-name: blinker;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+
+    -moz-animation-name: blinker;
+    -moz-animation-duration: 1s;
+    -moz-animation-timing-function: linear;
+    -moz-animation-iteration-count: infinite;
+
+    animation-name: blinker;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+
+    /*my code*/
+    color: #ff2878;
+}
+
+@-moz-keyframes blinker {
+    0% { opacity: 1.0; }
+    50% { opacity: 0.0; }
+    100% { opacity: 1.0; }
+}
+
+@-webkit-keyframes blinker {
+    0% { opacity: 1.0; }
+    50% { opacity: 0.0; }
+    100% { opacity: 1.0; }
+}
+
+@keyframes blinker {
+    0% { opacity: 1.0; }
+    50% { opacity: 0.0; }
+    100% { opacity: 1.0; }
+}
+
+#centering{
+    width:100%;
+    background-color: #ffe654;
+    padding: 10px;
+    /*padding-left:10px;*/
+    /*padding-right:10px;*/
+    /*padding-bottom:10px;*/
+    text-align: center;
+
+}
+
+a{
+    text-decoration: none;
+    font-size: 2em;
+}
+a:hover{
+    color: red;
+}
+
+#gr{
+    background-color: #5dff35;
+    float: left;
+    margin-right: 80%;
+}
+#br{
+    float: right;
+    }
+changer{
+    text-align: center;
+}
+h1,p,h3{
+    font-family: newfont;
+    text-decoration: blink;
+}
+@font-face {
+    font-family: newfont;
+    src:url("Fonts/fnt1.ttf");
+}
+#cd{
+    /*margin-right: 20px;*/
+}
+#cc{
+    width: 80%;
+}
+html{
+    size: 100px;
+}
+.tr{
+    margin-left: 150px;
+}
+p{
+    /*font-size: 50px;*/
+}
